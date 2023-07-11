@@ -1,5 +1,6 @@
 body{font-family: 'Open Sans', sans-serif;
-margin:0}
+margin:0;
+}
 /* banner styles */
 .banner-title{color: #272727;
     font-family: Lato;
@@ -98,4 +99,26 @@ flex-shrink: 0;}
      font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;}
-    .feature{padding-top:100px}
+    .feature{padding-top:100px;
+    height:950px}
+    /* support section */
+.support-section{display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+   
+    width: 1440px;
+height: 320px;
+flex-shrink: 0;
+border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+margin:auto;
+}
+.icon{color: rgba(39, 39, 39, 0.80);
+    
+    font-family: Lato;
+    font-size: 20px;
+    
+    font-weight: 600;
+    line-height: 35px;}
+

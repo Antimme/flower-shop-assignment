@@ -32,7 +32,8 @@ font-weight: 700;
 
 border:0;
 color:#FFFFFF; 
-cursor:pointer}    
+cursor:pointer}   
+.banner-btn:hover{color:#111010} 
 .banner-container{display: flex;
 align-items: center;
 padding: 0px 200px 0px 200px;
@@ -102,6 +103,7 @@ flex-shrink: 0;}
     text-decoration-line: underline;}
     .feature{padding-top:100px;
     height:950px}
+    .img-cap:hover{color:deeppink}
     /* support section */
 .support-section{display: flex;
     justify-content: space-around;

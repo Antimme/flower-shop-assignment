@@ -113,6 +113,7 @@ flex-shrink: 0;
 border-radius: 8px;
 background: rgba(39, 39, 39, 0.05);
 margin:auto;
+margin-bottom: 150px;
 }
 .icon{color: rgba(39, 39, 39, 0.80);
     
@@ -121,4 +122,30 @@ margin:auto;
     
     font-weight: 600;
     line-height: 35px;}
+/* hot deals style */
 
+.hot-title{color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;}
+.hot-text{color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;}
+    .hot-container{display: flex;
+    justify-content:space-around;
+align-items: center;
+border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+height:620px}
+
+.btn{padding-left: 180px;}
+/* instagram section styles */
+
+.insta-container{display:flex;
+justify-content: center;
+gap:24px}
+.insta{padding-top: 100px;
+height:700px}
